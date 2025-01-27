@@ -52,7 +52,7 @@ This project aims to develop a user-friendly React-based frontend for a Movie Ti
 ### Steps to Run the Application
 1. Clone the repository:
    ```bash
-   git clone https://github.com/ChayaKolin/Movie-Ticket-Booking-System
+   git clone https://github.com/ChayaKolin/Movie-Ticket-Booking-System/tree/master
    cd movieticketbookingsystem
    ```
 
