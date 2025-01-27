@@ -1,0 +1,19 @@
+.selectedSeatsList {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-align: left;
+  }
+  
+  .selectedSeat {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    justify-content: center;
+  }
+  
+  .icon {
+    margin-right: 10px;
+    font-size: 1.5em;
+  }
+  

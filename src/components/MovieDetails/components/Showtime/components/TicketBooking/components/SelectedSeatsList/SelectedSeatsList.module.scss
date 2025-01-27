@@ -1,0 +1,35 @@
+.selectedSeatsList {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .selectedSeat {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    margin: 5px 0;
+    background-color: #f9f9f9;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    transition: background-color 0.3s ease;
+  
+    &:hover {
+      background-color: #f1f1f1;
+    }
+  }
+  
+  .removeButton {
+    background-color: transparent;
+    color: #f44336;
+    border: none;
+    border-radius: 5px;
+    padding: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  
+    &:hover {
+      color: #d32f2f;
+    }
+  }

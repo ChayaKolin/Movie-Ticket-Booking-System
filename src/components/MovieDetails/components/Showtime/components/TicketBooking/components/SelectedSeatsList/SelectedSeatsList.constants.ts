@@ -1,0 +1,1 @@
+export const SEAT_NOT_AVAILABLE = 'N/A';

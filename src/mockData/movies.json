@@ -1,0 +1,68 @@
+[
+  {
+    "id": 1,
+    "title": "Inception",
+    "genre": "Horror",
+    "rating": 4.8,
+    "duration": 148,
+    "image": "/images/Inception.png",
+    "description": "A thief who enters the dreams of others to steal secrets from their subconscious is given the task of planting an idea into a CEO's mind.",
+    "releaseDate": "2010-07-16",
+    "director": "Christopher Nolan"
+  },
+  {
+    "id": 2,
+    "title": "Interstellar",
+    "genre": "Comedy",
+    "rating": 4.7,
+    "duration": 169,
+    "image": "/images/Interstellar.png",
+    "description": "A group of explorers must find a new home for humanity as Earth faces extinction.",
+    "releaseDate": "2014-11-07",
+    "director": "Christopher Nolan"
+  },
+  {
+    "id": 3,
+    "title": "Titanic",
+    "genre": "Drama",
+    "rating": 4.5,
+    "duration": 195,
+    "image": "/images/Titanic.png",
+    "description": "A seventeen-year-old aristocrat falls in love with a kind but poor artist aboard the luxurious, ill-fated R.M.S. Titanic.",
+    "releaseDate": "1997-12-19",
+    "director": "James Cameron"
+  },
+  {
+    "id": 4,
+    "title": "The Matrix",
+    "genre": "Action",
+    "rating": 2.1,
+    "duration": 136,
+    "image": "/images/The_Matrix.png",
+    "description": "A computer hacker learns from mysterious rebels about the true nature of his reality and his role in the war against its controllers.",
+    "releaseDate": "1999-03-31",
+    "director": "Lana Wachowski, Lilly Wachowski"
+  },
+  {
+    "id": 5,
+    "title": "Avatar",
+    "genre": "Comedy",
+    "rating": 3.5,
+    "duration": 162,
+    "image": "/images/Avatar.png",
+    "description": "A paraplegic Marine dispatched to the moon Pandora on a unique mission becomes torn between following his orders and protecting the world he feels is his home.",
+    "releaseDate": "2009-12-18",
+    "director": "James Cameron"
+  },
+  {
+    "id": 6,
+    "title": "The Godfather",
+    "genre": "Horror",
+    "rating": 2.7,
+    "duration": 175,
+    "image": "/images/The_Godfather.png",
+    "description": "The aging patriarch of an organized crime dynasty transfers control of his clandestine empire to his reluctant son.",
+    "releaseDate": "1972-03-24",
+    "director": "Francis Ford Coppola"
+  }
+]

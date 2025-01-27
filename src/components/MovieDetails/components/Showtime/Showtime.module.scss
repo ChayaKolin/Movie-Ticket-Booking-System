@@ -1,0 +1,136 @@
+@import '../../../../styles/variables.scss';
+
+.showtimeItem {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  margin: 15px;
+  border-radius: 15px;
+  background-color: #fff;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+  max-width: 350px;
+  width: 100%;
+  text-align: center;
+  overflow: hidden;
+  position: relative;
+
+  &.expanded {
+    height: auto;
+  }
+
+  &:hover {
+    box-shadow: 0 20px 50px rgba(0, 0, 0, 0.2);
+    transform: translateY(-5px);
+  }
+}
+
+.showtimeHeader {
+  font-size: 1.6em;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 12px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.showtimeBody {
+  margin-top: 15px;
+  padding: 15px;
+  background-color: #f9f9f9;
+  border-radius: $border-radius;
+  transition: background-color 0.3s ease;
+}
+
+.showtimeBody p {
+  font-size: 1.2em;
+  color: #555;
+  margin-bottom: 10px;
+}
+
+.status {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 12px;
+  font-size: 1.2em;
+  font-weight: bold;
+  color: #666;
+}
+
+.statusIcon {
+  margin-right: 8px;
+  font-size: 1.6em;
+  transition: transform 0.2s ease;
+}
+
+.available {
+  color: #4CAF50;
+  &:hover {
+    transform: scale(1.1);
+  }
+}
+
+.soldOut {
+  color: #F44336;
+  &:hover {
+    transform: scale(1.1);
+  }
+}
+
+.bookNowButton {
+  padding: 12px 24px;
+  background: linear-gradient(45deg, #6C63FF, #FF7E5F);
+  color: white;
+  font-size: 1.1em;
+  font-weight: bold;
+  border: none;
+  border-radius: 5px;
+
+  transition: all 0.3s ease;
+  width: 100%;
+  max-width: 220px;
+  margin-top: 20px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+
+  &:hover {
+    background: linear-gradient(45deg, #FF7E5F, #6C63FF);
+    transform: scale(1.05);
+  }
+
+  &:active {
+    transform: scale(0.98);
+  }
+
+  &.enabled {
+    background: linear-gradient(45deg, #4CAF50, #8BC34A);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  }
+
+  &:disabled {
+    background: #ddd;
+    cursor: not-allowed;
+    opacity: 0.5;
+    color: #999;
+    pointer-events: none;
+    transform: none;
+    cursor: not-allowed;
+  }
+}
+
+// Mobile Responsiveness
+@media (max-width: 768px) {
+  .showtimeItem {
+    max-width: 100%;
+    margin: 10px;
+  }
+
+  .bookNowButton,
+  .showtimeHeader {
+    font-size: 1.3em;
+  }
+
+  .showtimeBody {
+    padding: 12px;
+  }
+}

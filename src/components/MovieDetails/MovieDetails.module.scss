@@ -1,0 +1,37 @@
+.movieDetails {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+  
+  .showtimeContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+    width: 100%;
+  }
+
+  .showtime-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+    .showtime-item {
+      width: 48%;
+      flex-grow: 0;
+      transition: height 0.3s ease; 
+
+      &.open {
+        height: auto; 
+      }
+
+      @media (max-width: 768px) {
+        width: 100%;
+      }
+    }
+  }
+}

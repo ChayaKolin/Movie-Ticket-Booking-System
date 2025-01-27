@@ -1,0 +1,46 @@
+.seat {
+    padding: 10px;
+    margin: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    text-align: center;
+    font-size: 1em;
+    font-weight: bold;
+    border: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  
+    &.available {
+      background-color: #4CAF50;
+      color: white;
+    }
+  
+    &.occupied {
+      background-color: #F44336;
+      color: white;
+      cursor: not-allowed;
+    }
+  
+    &.selected {
+      background-color: #FFEB3B;
+      color: black;
+    }
+  
+    &:disabled {
+      cursor: not-allowed;
+    }
+  }
+  
+  .icon {
+    font-size: 1.5em;
+    margin-bottom: 5px;
+  }
+  
+  .seatInfo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }

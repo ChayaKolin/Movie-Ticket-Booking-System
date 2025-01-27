@@ -1,0 +1,19 @@
+.star {
+  font-size: 24px;
+  cursor: pointer;
+  color: #ddd;
+  transition: color 0.3s, transform 0.2s ease-in-out;
+
+  &.filled {
+    color: #ffcc00;
+  }
+
+  &.hovered {
+    color: #ff9900;
+    transform: scale(1.1);
+  }
+
+  &:active {
+    transform: scale(0.95);
+  }
+}

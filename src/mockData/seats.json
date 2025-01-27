@@ -1,0 +1,70 @@
+{
+  "1": {
+    "2025-02-01T15:00:00": [
+      { "seat": "A1", "available": true, "price": 30 },
+      { "seat": "A2", "available": true, "price": 30 },
+      { "seat": "A3", "available": true, "price": 90 },
+      { "seat": "A4", "available": false, "price": 30 },
+      { "seat": "A5", "available": true, "price": 30 }
+    ],
+    "2025-02-01T18:00:00": [
+      { "seat": "A1", "available": false, "price": 30 },
+      { "seat": "A2", "available": false, "price": 90 },
+      { "seat": "A3", "available": false, "price": 30 },
+      { "seat": "A4", "available": false, "price": 30 },
+      { "seat": "A5", "available": false, "price": 30 }
+    ]
+  },
+  "2": {
+    "2025-02-02T10:00:00": [
+      { "seat": "B1", "available": true, "price": 25 },
+      { "seat": "B2", "available": true, "price": 90 },
+      { "seat": "B3", "available": true, "price": 25 },
+      { "seat": "B4", "available": true, "price": 25 },
+      { "seat": "B5", "available": true, "price": 25 }
+    ]
+  },
+  "3": {
+    "2025-02-03T12:00:00": [
+      { "seat": "C1", "available": true, "price": 35 },
+      { "seat": "C2", "available": false, "price": 90 },
+      { "seat": "C3", "available": true, "price": 35 },
+      { "seat": "C4", "available": false, "price": 35 },
+      { "seat": "C5", "available": true, "price": 35 }
+    ],
+    "2025-02-03T16:00:00": [
+      { "seat": "C1", "available": false, "price": 35 },
+      { "seat": "C2", "available": false, "price": 35 },
+      { "seat": "C3", "available": false, "price": 90 },
+      { "seat": "C4", "available": false, "price": 35 },
+      { "seat": "C5", "available": false, "price": 35 }
+    ]
+  },
+  "4": {
+    "2025-02-04T13:00:00": [
+      { "seat": "D1", "available": true, "price": 40 },
+      { "seat": "D2", "available": true, "price": 40 },
+      { "seat": "D3", "available": true, "price": 40 },
+      { "seat": "D4", "available": true, "price": 90 },
+      { "seat": "D5", "available": false, "price": 40 }
+    ]
+  },
+  "5": {
+    "2025-02-05T14:00:00": [
+      { "seat": "E1", "available": true, "price": 30 },
+      { "seat": "E2", "available": true, "price": 30 },
+      { "seat": "E3", "available": false, "price": 30 },
+      { "seat": "E4", "available": true, "price": 30 },
+      { "seat": "E5", "available": true, "price": 30 }
+    ]
+  },
+  "6": {
+    "2025-02-06T17:00:00": [
+      { "seat": "F1", "available": true, "price": 45 },
+      { "seat": "F2", "available": true, "price": 45 },
+      { "seat": "F3", "available": true, "price": 45 },
+      { "seat": "F4", "available": true, "price": 45 },
+      { "seat": "F5", "available": false, "price": 45 }
+    ]
+  }
+}

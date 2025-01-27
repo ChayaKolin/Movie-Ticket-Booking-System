@@ -1,0 +1,149 @@
+@import '../../../../../../styles/variables.scss';
+
+.ticketBooking {
+  padding: 20px;
+  background-color: #fff;
+  border-radius: $border-radius;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.seatMap {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 20px 0;
+}
+
+.summary {
+  margin-top: 20px;
+  background-color: #f9f9f9;
+  padding: 20px;
+  border-radius: $border-radius;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  max-width: 600px; 
+  margin: 20px auto;
+  text-align: center; 
+}
+
+.summary h4 {
+  font-size: 1.5em;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center; /* Center align content */
+}
+
+.summary p {
+  font-size: 1.2em;
+  color: #555;
+  margin: 5px 0;
+  display: flex;
+  align-items: center;
+  justify-content: center; /* Center align content */
+}
+
+.ticketBookingFinalConfirm {
+  padding: 12px 24px;
+  background: linear-gradient(45deg, #6C63FF, #FF7E5F);
+  color: white;
+  font-size: 1.1em;
+  font-weight: bold;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  width: 100%;
+  max-width: 220px;
+  margin-top: 20px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+
+  &:hover {
+    background: linear-gradient(45deg, #FF7E5F, #6C63FF);
+    transform: scale(1.05);
+  }
+
+  &:active {
+    transform: scale(0.98);
+  }
+
+  &:disabled {
+    background: #ddd;
+    cursor: not-allowed;
+    opacity: 0.5;
+  }
+}
+
+.confirmButton {
+  padding: 12px 24px;
+  background: linear-gradient(45deg, #4CAF50, #8BC34A);
+  color: white;
+  font-size: 1.1em;
+  font-weight: bold;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  width: 100%;
+  max-width: 220px;
+  margin-top: 20px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+
+  &:hover {
+    background: linear-gradient(45deg, #8BC34A, #4CAF50);
+    transform: scale(1.05);
+  }
+
+  &:active {
+    transform: scale(0.98);
+  }
+}
+
+.modalContent {
+  padding: 20px;
+  text-align: center; 
+}
+
+.modalInfo {
+  display: flex;
+  align-items: center;
+  justify-content: center; 
+  margin-bottom: 10px;
+}
+
+.icon {
+  margin-right: 10px;
+  font-size: 1.5em;
+}
+
+.selectedSeatsList {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  text-align: left; 
+  display: inline-block; 
+}
+
+.selectedSeat {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.totalPrice {
+  display: flex;
+  align-items: center;
+  justify-content: center; 
+  margin-top: 20px;
+}
+
+.modalInfo p,
+.totalPrice p {
+  font-weight: bold; 
+  font-size: 1.1em;
+  color: #333;
+}

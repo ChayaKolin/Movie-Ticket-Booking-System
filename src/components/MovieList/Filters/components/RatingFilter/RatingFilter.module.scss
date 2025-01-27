@@ -1,0 +1,13 @@
+@import '../../../../../styles/mixins.scss';
+
+.ratingFilter {
+  @include box-styles($flex: false);
+
+.label {
+  font-size: 1rem; 
+  font-weight: bold;
+  color: #333;
+  margin-right: 1rem;
+  text-align: left;
+}
+}
